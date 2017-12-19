@@ -36,6 +36,7 @@ if ($db->connect_error == "Unknown database '{db_name}'") {
   $fp = file_get_contents("mysql.sql");  
   $fp = str_replace('{moduleName}', $WEB['moduleName'], $fp);
 
+  echo "<meta charset='UTF-8'>";
   echo "<br>=========================================================<br>";
   echo "請建資料庫「{db_name}」<br>";
   echo "並複製底下資料表結構，建立資料表";

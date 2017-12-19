@@ -7,6 +7,8 @@ if (!file_exists(dirname(dirname(__DIR__))."/{$WEB['moduleName']}_sqlConfig.php"
 	$fp = file_get_contents("sqlConfig.txt");
 	
 	$fp = str_replace('{db_name}', $WEB['moduleName'], $fp);
+
+	echo '<meta charset="UTF-8">';
 	echo "請將下方程式碼儲存「". str_replace("\\", "/", dirname(dirname(__DIR__))) . "/{$WEB['moduleName']}_sqlConfig.php」<br>";
 	echo "並填入您的MYSQL資料庫的帳號、密碼、資料庫名稱。";
 	echo "<hr>";
