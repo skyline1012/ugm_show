@@ -1,4 +1,5 @@
 <{* 後台主佈景 *}>
+<{assign var=show_var value=1}>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,6 +72,7 @@
     </div>
   	
   </div>
+  <{include file="tpl/show_var.tpl"}>
   <{include file="tpl/admin_facebook.tpl"}> 
 
 </body>

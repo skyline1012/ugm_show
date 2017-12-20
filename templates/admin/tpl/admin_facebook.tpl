@@ -4,7 +4,7 @@
   .fab-fixed-wrap {
     position: fixed;
     z-index: 1045;
-    left: 0px;
+    right: 0px;
     bottom: 0px;
   }
   .fa {
