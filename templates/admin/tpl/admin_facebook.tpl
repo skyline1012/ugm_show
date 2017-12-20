@@ -4,8 +4,8 @@
   .fab-fixed-wrap {
     position: fixed;
     z-index: 1045;
-    left: 30px;
-    bottom: 30px;
+    left: 0px;
+    bottom: 0px;
   }
   .fa {
       display: inline-block;

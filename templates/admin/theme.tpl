@@ -5,29 +5,29 @@
 	<meta charset="UTF-8">
 
   <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-  <link rel="stylesheet" href="<{$xoImgUrl}>css/bootstrap.min.css">
+  <link rel="stylesheet" href="<{xoImgUrl}>css/bootstrap.min.css">
 
   <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
-  <link rel="stylesheet" href="<{$xoImgUrl}>css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="<{xoImgUrl}>css/bootstrap-theme.min.css">
   <!-- 自訂css -->
-  <link rel="stylesheet" type="text/css" href="<{$xoImgUrl}>css/style.css">
+  <link rel="stylesheet" type="text/css" href="<{xoImgUrl}>css/style.css">
   
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="<{$xoImgUrl}>js/jquery.min.js"></script>
+  <script src="<{xoImgUrl}>js/jquery.min.js"></script>
   
   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-  <script src="<{$xoImgUrl}>js/bootstrap.min.js"></script>
+  <script src="<{xoImgUrl}>js/bootstrap.min.js"></script>
 
 	<!-- bootstrap 驗證 -->
-  <link rel="stylesheet" href="<{$xoAppUrl}>class/bootstrapValidator/css/bootstrapValidator.css"/>
-  <script type="text/javascript" src="<{$xoAppUrl}>class/bootstrapValidator/js/bootstrapValidator.js"></script>
+  <link rel="stylesheet" href="<{xoAppUrl}>class/bootstrapValidator/css/bootstrapValidator.css"/>
+  <script type="text/javascript" src="<{xoAppUrl}>class/bootstrapValidator/js/bootstrapValidator.js"></script>
 
   <!-- sweetalert2 -->
-  <script src="<{$xoAppUrl}>class/sweetalert2/sweetalert2.min.js"></script>
-  <link rel="stylesheet" href="<{$xoAppUrl}>class/sweetalert2/sweetalert2.min.css">
+  <script src="<{xoAppUrl}>class/sweetalert2/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="<{xoAppUrl}>class/sweetalert2/sweetalert2.min.css">
   
   <!-- fontawesome -->  
-  <link rel="stylesheet" href="<{$xoAppUrl}>class/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<{xoAppUrl}>class/font-awesome/css/font-awesome.min.css">
 	<title><{$WEB.theme_title}></title>
 
 </head>

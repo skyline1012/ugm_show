@@ -10,6 +10,11 @@
  */
 function smarty_compiler_xoAppUrl($argStr, &$smarty)
 {
-  $argStr[0] = str_replace("'", "", $argStr[0]);
+	if($argStr){
+	  $argStr[0] = str_replace("'", "", $argStr[0]);
+	  $argStr[0] = $argStr[0] ? $argStr[0]:"";
+	}else{
+		$argStr[0] = "";
+	}
   return WEB_URL."/".$argStr[0];
 }
