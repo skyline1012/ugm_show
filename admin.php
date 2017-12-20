@@ -70,7 +70,7 @@ function opDeleteTmp(){
 	global $smarty;
 	$files = glob($smarty->compile_dir.'*'); // 得到所有編譯檔
 	foreach($files as $file){ // iterate files
-	  if(is_file($file))
+	  if(is_file($file) and basename($file) !="index.html")
 	    unlink($file); // 刪除檔案
 	}
 	return "清理暫存成功！";

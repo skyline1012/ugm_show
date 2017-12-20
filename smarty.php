@@ -13,3 +13,7 @@ $smarty->compile_dir = WEB_PATH . '/templates_c/';
 $smarty->config_dir = WEB_PATH . '/configs/';
 #暫存路徑
 $smarty->cache_dir = WEB_PATH . '/cache/';
+
+$smarty->plugins_dir = array(
+  WEB_PATH . '/class/smarty/libs/ugm_plugins/' ,
+  WEB_PATH . '/class/smarty/libs/sysplugins/');
