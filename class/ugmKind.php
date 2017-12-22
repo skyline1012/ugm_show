@@ -111,7 +111,7 @@ class ugmKind {
 			#取得底下有幾層
 			$row['downLevel'] = $this->get_downLevel($row['sn']);
 			
-			$row['sub'] = $this->get_listArr($row['sn'], $downLevel);
+			$row['sub'] = $this->get_listArr($row['sn'], $downLevel,$enable);
 
 			//移動圖示
 			$icon['move_i'] = ($this->stopLevel == $row['downLevel'])?false:true;
