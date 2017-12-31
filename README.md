@@ -42,4 +42,4 @@
 
 	雲端應用研究社 社長：康峻溢 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdbc5iw1uX8-JwuFkZbItEVQXuEo2CNSDpx7FiGARKSDWp5lg/viewform?embedded=true" style="width:100%;heigth:1000px;" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdbc5iw1uX8-JwuFkZbItEVQXuEo2CNSDpx7FiGARKSDWp5lg/viewform?embedded=true" style="width:100%;heigth:1000px;" frameborder="0" marginheight="0" marginwidth="0"> </iframe>
