@@ -10,7 +10,7 @@
 
 
 ### 專案研習
-> 報名網址：<http://#>
+> 報名網址：<https://goo.gl/forms/zkuJNjy5jkF2tstF2>
 
 研習名稱：原來寫程式這麼簡單，99分鐘完成專案
 
@@ -42,4 +42,3 @@
 
 	雲端應用研究社 社長：康峻溢 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdbc5iw1uX8-JwuFkZbItEVQXuEo2CNSDpx7FiGARKSDWp5lg/viewform?embedded=true" style="width:100%;heigth:1000px;" frameborder="0" marginheight="0" marginwidth="0"> </iframe>
