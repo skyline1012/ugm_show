@@ -10,7 +10,7 @@
 
 
 ### 專案研習
-> [報名網址](https://goo.gl/forms/zkuJNjy5jkF2tstF2)
+> [報名網址](https://goo.gl/forms/zkuJNjy5jkF2tstF2) | [查詢報名](https://goo.gl/pPLPb9)
 
 研習名稱：原來寫程式這麼簡單，99分鐘完成專案
 
