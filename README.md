@@ -12,6 +12,10 @@
 ### 專案研習
 > [報名網址](https://goo.gl/forms/zkuJNjy5jkF2tstF2) | [查詢報名](https://goo.gl/pPLPb9)
 
+### 研習教材
+
+> <https://docs.google.com/presentation/d/1WtpakzwOfHYj8TR_9t-o9auv3cMuKRmFYI66HGDr1s8/edit?usp=sharing>
+
 研習名稱：原來寫程式這麼簡單，99分鐘完成專案
 
 研習地點：台南市成功國中 – 電腦教室
