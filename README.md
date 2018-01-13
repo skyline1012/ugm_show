@@ -14,7 +14,7 @@
 
 ### 研習教材
 
-> [<img src="https://goo.gl/49dBSa.qr">](https://goo.gl/49dBSa)
+> [<img src="https://goo.gl/gH3cRD.qr">](https://goo.gl/gH3cRD)
 
 研習名稱：原來寫程式這麼簡單，99分鐘完成專案
 
