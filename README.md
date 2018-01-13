@@ -14,7 +14,8 @@
 
 ### 研習教材
 
-> <https://docs.google.com/presentation/d/1WtpakzwOfHYj8TR_9t-o9auv3cMuKRmFYI66HGDr1s8/edit?usp=sharing>
+> <https://goo.gl/49dBSa>
+> ![研習教材 QR-CODE](https://goo.gl/49dBSa.qr)
 
 研習名稱：原來寫程式這麼簡單，99分鐘完成專案
 
