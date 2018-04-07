@@ -152,6 +152,20 @@ function opUpdate($sn){
   $thumb_width = "120";                              //小圖壓縮尺吋
   $ugmUpFiles->upload_file($name,$col_name,$col_sn,$multiple,$main_width,$thumb_width);
   #-----------------------------------
+  #
+  #----單檔圖片(上傳)，需 global $ugmKind,$WEB;
+  $moduleName = $WEB['moduleName'];                  //專案名稱
+  $subdir = $ugmKind->get_kind();                    //子目錄
+  $ugmUpFiles = new ugmUpFiles($moduleName, $subdir);//實體化
+
+  $col_name = "pdf";                                 //資料表關鍵字
+  $col_sn = $sn;                                     //商品流水號
+  $name = "pdf";                                     //欄位名稱
+  $multiple = false;                                 //單檔 or 多檔上傳
+// $main_width = "1280";                             //大圖壓縮尺吋，-1則不壓縮
+// $thumb_width = "120";                             //小圖壓縮尺吋
+  $ugmUpFiles->upload_file($name,$col_name,$col_sn,$multiple);
+  #-----------------------------------
   return "編輯商品成功！！";
   
 }
@@ -199,6 +213,19 @@ function opInsert(){
   $main_width = "1280";                              //大圖壓縮尺吋，-1則不壓縮
   $thumb_width = "120";                              //小圖壓縮尺吋
   $ugmUpFiles->upload_file($name,$col_name,$col_sn,$multiple,$main_width,$thumb_width);
+  #-----------------------------------
+  #----單檔圖片(上傳)，需 global $ugmKind,$WEB;
+  $moduleName = $WEB['moduleName'];                  //專案名稱
+  $subdir = $ugmKind->get_kind();                    //子目錄
+  $ugmUpFiles = new ugmUpFiles($moduleName, $subdir);//實體化
+
+  $col_name = "pdf";                                 //資料表關鍵字
+  $col_sn = $sn;                                     //商品流水號
+  $name = "pdf";                                     //欄位名稱
+  $multiple = false;                                 //單檔 or 多檔上傳
+// $main_width = "1280";                             //大圖壓縮尺吋，-1則不壓縮
+// $thumb_width = "120";                             //小圖壓縮尺吋
+  $ugmUpFiles->upload_file($name,$col_name,$col_sn,$multiple);
   #-----------------------------------
 
   return "新增商品成功！！";
@@ -361,6 +388,19 @@ function opForm($sn=""){
   $multiple = false;                                 //單檔 or 多檔上傳
   $accept = "image/*";                               //可接受副檔名
   $row['pic'] = $ugmUpFiles->upform($name,$col_name,$col_sn,$multiple,$accept);
+  #-----------------------------------
+  
+  #----單檔圖片(表單)，需 global $ugmKind,$WEB;
+  $moduleName = $WEB['moduleName'];                  //專案名稱
+  $subdir = $ugmKind->get_kind();                    //子目錄
+  $ugmUpFiles_pdf = new ugmUpFiles($moduleName, $subdir);//實體化
+
+  $col_name = "pdf";                                 //資料表關鍵字
+  $col_sn = $row['sn'];                              //商品流水號
+  $name = "pdf";                                     //欄位名稱
+  $multiple = false;                                 //單檔 or 多檔上傳
+  $accept = "application/pdf";                       //可接受副檔名
+  $row['pdf'] = $ugmUpFiles_pdf->upform($name,$col_name,$col_sn,$multiple,$accept);
   #-----------------------------------
   $DirName = 'ck';                  //專案名稱
   mk_dir(WEB_PATH . "/uploads/{$DirName}");

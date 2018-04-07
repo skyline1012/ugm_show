@@ -189,7 +189,14 @@
             </div>
           </div> 
 
-          <div class="col-sm-6">
+          <div class="col-sm-3">
+            <div class="form-group">
+              <label for="pdf">型錄</label>
+              <{$row.pdf}>
+            </div>
+          </div> 
+
+          <div class="col-sm-3">
             <div class="form-group">
               <label for="summary">商品摘要</label>
               <textarea class="form-control" rows="4" id="summary" name="summary"><{$row.summary}></textarea>
